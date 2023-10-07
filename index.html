@@ -5,13 +5,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Portifolio</title>
       <link rel="stylesheet" href="./styles/style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
    </head>
    <body>
       <header class="header">
-         <div class="container">
+         <div class="container-header">
             <p class="name-test">AYRANOLIVEIRA</p>
             <div class="menu">
-               <a href="#">Sobre mim</a>
+               <a href="#sobreMim">Sobre mim</a>
                <a href="#">Conhecimentos</a>
                <a href="#">Projetos</a>
                <a href="#">Contato</a>
@@ -32,21 +39,45 @@
             <div class="img-fundo"></div>
          </section>
 
-         <section class="sobre-mim">
-            <h1>Sobre mim</h1>
-            <p>
-               Meu nome é Ayran Oliveira, tenho 21 anos e sou apaixonado por
-               tecnologia. Meu primeiro contato com progrmação foi em 2020,
-               quando estava terminando o ensino médio. Apesar de ter gostado
-               muito do área, só comecei a dar devido foco no começo de 2023,
-               quando descobri os curso deo Gustavo Guanabara. Hoje estou
-               cursando Análise e desenvolvimento de sistemas, e ja entendo
-               tecnologias de desenvolvimento web, especificamente voltadas para
-               o Front-end.
-            </p>
+         <section class="sobre-mim" id="sobreMim">
+            <img src="./public/img-sobre-mim.png" alt="Sobre Mim" />
+            <div class="sobre">
+               <h1>Sobre mim</h1>
+               <p>
+                  Meu nome é Ayran Oliveira, tenho 21 anos e sou apaixonado por
+                  <br />
+                  tecnologia. Meu primeiro contato com progrmação foi em 2020,
+                  <br />
+                  quando estava terminando o ensino médio. Apesar de ter gostado
+                  <br />
+                  muito do área, só comecei a dar devido foco no começo de 2023,
+                  <br />
+                  quando descobri os cursos do Gustavo Guanabara.
+               </p>
+               <p>
+                  Hoje estou cursando Análise e desenvolvimento de sistemas,
+                  <br />
+                  e ja entendo tecnologias de desenvolvimento web,
+                  especificamente
+                  <br />
+                  voltadas para o Front-end.
+               </p>
+            </div>
          </section>
 
-         <section class="conhecimentos"></section>
+         <section class="conhecimentos">
+            <div class="container-conhecimentos">
+               <h1>Conhecimentos</h1>
+               <div class="linguagens">
+                  <img
+                     src="./public/html.png"
+                     alt="HTML5
+                  "
+                  />
+                  <p>HTML5</p>
+               </div>
+            </div>
+         </section>
 
          <section class="projetos"></section>
 

@@ -10,6 +10,7 @@
 html,
 body {
    background-color: black;
+   scroll-behavior: smooth;
 }
 
 h1,
@@ -17,11 +18,13 @@ p {
    text-shadow: 2px 2px 2px #848383;
 }
 
+/* home*/
+
 .header {
    font-size: 20px;
 }
 
-.header .container {
+.header .container-header {
    width: 70%;
    height: 100px;
    margin: auto;
@@ -34,6 +37,7 @@ p {
    margin-left: 25px;
    text-decoration: none;
    position: relative;
+   color: #fff;
 }
 
 .menu a::after {
@@ -56,6 +60,7 @@ p {
    width: 70%;
    margin: auto;
    padding-top: 200px;
+   height: 5000px;
 }
 
 .container-main h1 {
@@ -91,4 +96,65 @@ p {
    left: 50vw;
    height: 400px;
    width: 700px;
+}
+
+/* Sobre mim */
+
+.sobre-mim {
+   margin-top: 300px;
+   padding-top: 300px;
+   display: flex;
+}
+
+.sobre-mim img {
+   margin-right: 20px;
+   opacity: 0.5;
+   width: 600px;
+   height: 445px;
+}
+
+.sobre-mim h1 {
+   font-size: 65px;
+}
+
+.sobre-mim p {
+   font-size: 25px;
+   margin-top: 70px;
+   text-align: justify;
+   text-indent: 35px;
+}
+
+.conhecimentos {
+   margin-top: 150px;
+   padding-top: 150px;
+}
+
+.conhecimentos h1 {
+   text-align: center;
+   font-size: 65px;
+   margin-bottom: 100px;
+}
+
+.conhecimentos .linguagens {
+   background-color: white;
+   width: 300px;
+   height: 350px;
+   border-radius: 50px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.conhecimentos .linguagens img {
+   width: 250px;
+}
+
+.conhecimentos p {
+   color: #000000;
+   text-shadow: 0 0 0;
+   padding-top: 40px;
+   font-size: 30px;
+   font-weight: bold;
 }
