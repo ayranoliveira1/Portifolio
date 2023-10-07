@@ -12,6 +12,11 @@ body {
    background-color: black;
 }
 
+h1,
+p {
+   text-shadow: 2px 2px 2px #848383;
+}
+
 .header {
    font-size: 20px;
 }
@@ -26,8 +31,25 @@ body {
 }
 
 .menu a {
-   padding-left: 15px;
+   margin-left: 25px;
    text-decoration: none;
+   position: relative;
+}
+
+.menu a::after {
+   content: " ";
+   width: 0%;
+   height: 2px;
+   background-color: #fff;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: 0.3s ease-in-out;
+}
+
+.menu a:hover::after {
+   width: 100%;
+   margin-top: 5px;
 }
 
 .main {
@@ -42,6 +64,7 @@ body {
 
 .container-main .azul {
    color: aqua;
+   text-shadow: 2px 2px 2px rgb(26, 155, 155);
 }
 
 .container-main .linha {
@@ -49,6 +72,7 @@ body {
    height: 5px;
    margin-top: 30px;
    background-color: aqua;
+   box-shadow: 2px 2px 2px rgba(34, 192, 192, 0.612) !important;
 }
 
 .container-main .text {
