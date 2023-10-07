@@ -36,22 +36,22 @@ body {
    padding-top: 200px;
 }
 
-.main h1 {
+.container-main h1 {
    font-size: 65px;
 }
 
-.main .azul {
+.container-main .azul {
    color: aqua;
 }
 
-.main .linha {
+.container-main .linha {
    width: 116px;
    height: 5px;
    margin-top: 30px;
    background-color: aqua;
 }
 
-.main .text {
+.container-main .text {
    padding-top: 30px;
    font-size: 20px;
 }
