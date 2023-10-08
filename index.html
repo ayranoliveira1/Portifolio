@@ -4,6 +4,7 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Portifolio</title>
+      <link rel="stylesheet" href="./styles/animate.css" />
       <link rel="stylesheet" href="./styles/style.css" />
       <link
          rel="stylesheet"
@@ -16,22 +17,30 @@
    <body>
       <header class="header">
          <div class="container-header">
-            <p class="name-test">AYRANOLIVEIRA</p>
+            <p class="name-test wow fadeIn">AYRANOLIVEIRA</p>
             <div class="menu">
-               <a href="#sobreMim">Sobre mim</a>
-               <a href="#conhecimentos">Conhecimentos</a>
-               <a href="#">Projetos</a>
-               <a href="#">Contato</a>
+               <div class="hover">
+                  <a class="wow fadeIn" href="#sobreMim">Sobre mim</a>
+               </div>
+               <div class="hover">
+                  <a class="wow fadeIn" href="#conhecimentos">Conhecimentos</a>
+               </div>
+               <div class="hover">
+                  <a class="wow fadeIn" href="#">Projetos</a>
+               </div>
+               <div class="hover">
+                  <a class="wow fadeIn" href="#">Contato</a>
+               </div>
             </div>
          </div>
       </header>
       <main class="main">
          <section class="container-main">
             <div>
-               <h1>Olá, sou Ayran Oliveira</h1>
-               <h1 class="azul">Dev Front-end!</h1>
-               <div class="linha"></div>
-               <p class="text">
+               <h1 class="wow fadeInLeft">Olá, sou Ayran Oliveira</h1>
+               <h1 class="azul wow fadeInLeft delay-02s">Dev Front-end!</h1>
+               <div class="linha wow fadeIn delay-07s"></div>
+               <p class="text wow fadeInLeft delay-03s">
                   Desenvolvedor Front-end: Transformando <br />
                   designes em experiências digitais cativantes!
                </p>
@@ -42,8 +51,8 @@
          <section class="sobre-mim" id="sobreMim">
             <img src="./public/assets/img-sobre-mim.png" alt="Sobre Mim" />
             <div class="sobre">
-               <h1>Sobre mim</h1>
-               <p>
+               <h1 class="wow fadeInRight">Sobre mim</h1>
+               <p class="wow fadeInRight delay-02s">
                   Meu nome é Ayran Oliveira, tenho 21 anos e sou apaixonado por
                   <br />
                   tecnologia. Meu primeiro contato com progrmação foi em 2020,
@@ -54,7 +63,7 @@
                   <br />
                   quando descobri os cursos do Gustavo Guanabara.
                </p>
-               <p>
+               <p class="wow fadeInRight delay-03s">
                   Hoje estou cursando Análise e desenvolvimento de sistemas,
                   <br />
                   e ja entendo tecnologias de desenvolvimento web,
@@ -67,8 +76,8 @@
 
          <section class="conhecimentos" id="conhecimentos">
             <div class="container-conhecimentos">
-               <h1>Conhecimentos</h1>
-               <div id="listaL"></div>
+               <h1 class="wow fadeInUp delay-02s">Conhecimentos</h1>
+               <div id="listaL" class="wow fadeInUp delay-02s"></div>
             </div>
          </section>
 
@@ -78,5 +87,10 @@
       </main>
 
       <script type="module" src="./src/main.js"></script>
+      <script type="text/javascript" src="./src/wow.min.js"></script>
+
+      <script>
+         new WOW().init();
+      </script>
    </body>
 </html>

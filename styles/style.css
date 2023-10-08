@@ -33,6 +33,10 @@ p {
    justify-content: space-between;
 }
 
+.menu {
+   display: flex;
+}
+
 .menu a {
    margin-left: 25px;
    text-decoration: none;
@@ -40,20 +44,12 @@ p {
    color: #fff;
 }
 
-.menu a::after {
-   content: " ";
-   width: 0%;
-   height: 2px;
-   background-color: #fff;
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   transition: 0.3s ease-in-out;
+.hover {
+   transition: 0.2s;
 }
 
-.menu a:hover::after {
-   width: 100%;
-   margin-top: 5px;
+.menu .hover:hover {
+   scale: 1.1;
 }
 
 .main {
@@ -108,7 +104,7 @@ p {
 
 .sobre-mim img {
    margin-right: 20px;
-   opacity: 0.5;
+   opacity: 0.3;
    width: 600px;
    height: 445px;
 }
@@ -123,6 +119,8 @@ p {
    text-align: justify;
    text-indent: 35px;
 }
+
+/* Conhecimentos */
 
 .conhecimentos {
    margin-top: 150px;
