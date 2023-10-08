@@ -44,6 +44,21 @@ p {
    color: #fff;
 }
 
+.menu a::after {
+   content: " ";
+   width: 0%;
+   height: 2px;
+   background-color: #fff;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   transition: 0.3s ease-in-out;
+}
+
+.menu a:hover::after {
+   width: 100%;
+}
+
 .hover {
    transition: 0.2s;
 }
