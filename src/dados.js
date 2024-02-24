@@ -59,3 +59,21 @@ export const lista = [
       nome: "GIt",
    },
 ];
+
+export const projetos = [
+   {
+      id: "1",
+      name: "Menu Cardapio",
+      img: "Cardapio.png",
+      github: "https://github.com/ayranoliveira1/Menu-Cardapio-Online",
+      deploy: "https://menuonlinedelivery.000webhostapp.com/",
+   },
+
+   {
+      id: "2",
+      name: "Sistema de Barbearias",
+      img: "Barbershop.png",
+      github: "https://github.com/ayranoliveira1/barber-shop",
+      deploy: "https://barber-shop-mauve.vercel.app/",
+   },
+];
