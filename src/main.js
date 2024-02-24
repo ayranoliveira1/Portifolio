@@ -1,6 +1,6 @@
 import { lista } from "./dados.js";
 
-export function carregarLinguagens() {
+const carregarLinguagens = () => {
    for (const linguagensLista of lista) {
       const cartaoLista = `
         <div class="linguagens">
@@ -12,8 +12,8 @@ export function carregarLinguagens() {
         <p>${linguagensLista.nome}</p>
         `;
 
-      document.getElementById("listaL").innerHTML += cartaoLista;
+      document.querySelector("#listaL").innerHTML += cartaoLista;
    }
-}
+};
 
 carregarLinguagens();

@@ -19,31 +19,43 @@ export const lista = [
 
    {
       id: "4",
-      img: "bootstrap.png",
-      nome: "Bootstrap",
+      img: "React.png",
+      nome: "React.js",
    },
 
    {
       id: "5",
+      img: "TypeScript.png",
+      nome: "TypeScript",
+   },
+
+   {
+      id: "6",
+      img: "Node.png",
+      nome: "Node.js",
+   },
+
+   {
+      id: "7",
+      img: "Next.png",
+      nome: "Next.js",
+   },
+
+   {
+      id: "",
       img: "tailwind.png",
       nome: "Tailwind CSS",
    },
 
    {
-      id: "6",
+      id: "",
       img: "python.png",
       nome: "Python",
    },
 
    {
-      id: "7",
+      id: "",
       img: "git.png",
       nome: "GIt",
-   },
-
-   {
-      id: "8",
-      img: "github.png",
-      nome: "Github",
    },
 ];
