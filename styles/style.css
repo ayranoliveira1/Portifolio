@@ -259,9 +259,10 @@ p {
    font-size: 20px;
 }
 
-.projetos2 h2 {
-   margin-top: 40px;
-   margin-bottom: 15px;
+.projetos2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .projetos2 p {
@@ -276,7 +277,7 @@ p {
 
 .tech p {
    font-size: 14px;
-   margin-top: 35px;
+   margin-top: 25px;
    width: fit-content;
    padding: 5px 8px;
    border-radius: 30px;
